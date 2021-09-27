@@ -19,8 +19,8 @@ The following table show available argumants and variables they set, possible va
 | --install-php-extensions
 | --install-programs
 | --enable-apt-universe
-| --install-webmin
-| --webmin-port
+| --install-webmin         | $conf_install_webmin      | `true`  | true, false     | Skip webmin installation
+| --webmin-port            | $conf_webmin_port         | `false` | `set by user`   | Set Webmin port
 | --webmin-ssl
 | --install-imagemagick
 | --wp-locale
@@ -28,10 +28,10 @@ The following table show available argumants and variables they set, possible va
 | --create-demo-index
 | --create-phpinfo
 | --adminer-buils
-| --hostname
+| --hostname               | $hostname                 | `false` | `set by user`   | Set server default domain
 | --rootpass
 | --unixuser
 | --unixpass
 | --mysqlrpass
 | --email
-| --server-type
+| --server-type            | $server_type              | `false` | apache, nginx   | Choose server type

@@ -1,5 +1,7 @@
 # Git push to non-bare repo
 
+()[]
+
 cPanel konfiguracioni fajl:
 ```
 [core]
